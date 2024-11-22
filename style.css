@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #555;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.job, .education {
+  margin-bottom: 15px;
+}
+
+.job h3, .education h3 {
+  margin: 0;
+}
+
+.job span, .education span {
+  font-size: 0.9em;
+  color: #777;
+}
